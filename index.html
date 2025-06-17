@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedural Dungeon Sandbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Procedurally Generated Dungeon Crawler</h1>
+
+    <div id="game-container">
+        <canvas id="dungeonCanvas"></canvas>
+        <div id="controls">
+            <button id="generateButton">Generate New Dungeon</button>
+        </div>
+        <div class="info-panel">
+            Map Size: <span id="mapSizeInfo"></span> | Algorithm: <span id="algorithmInfo">Drunkard's Walk</span>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

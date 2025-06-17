@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #282c34; /* Dark background */
+    color: #abb2bf; /* Light text */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #61afef; /* Blue heading */
+    margin-bottom: 20px;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #3e4451; /* Slightly lighter background for container */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+canvas {
+    border: 2px solid #56b6c2; /* Cyan border */
+    background-color: #1a1a20; /* Very dark for empty canvas */
+    display: block; /* Remove extra space below canvas */
+}
+
+#controls {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #98c379; /* Green button */
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #83b965;
+}
+
+.info-panel {
+    font-size: 0.9em;
+    color: #c678dd; /* Purple for info */
+}
